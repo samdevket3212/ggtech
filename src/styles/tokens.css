@@ -1,0 +1,86 @@
+/* GG Technology Media tokens, generated from the design system tokens.json. */
+
+:root {
+  color-scheme: dark;
+  --midnight-black: #0B0B10;
+  --graphite: #17171F;
+  --warm-ivory: #F6F5F0;
+  --soft-white: #F5F5F7;
+  --cool-gray: #A3A3B2;
+  --electric-lime: #C8FF5F;
+  --digital-violet: #9188FF;
+  --dark-slate: #30303A;
+  --slate-ink: #62626F;
+  --ivory-raised: #ECEAE3;
+  --ivory-line: #DCDAD2;
+  --steel-dark: #6B6B79;
+  --steel-light: #82828F;
+  --signal-coral: #FF8A7A;
+  --signal-red: #B42318;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --section-y: 160px;
+  --section-y-tablet: 120px;
+  --section-y-mobile: 80px;
+  --radius-none: 0px;
+  --radius-md: 12px;
+  --radius-lg: 24px;
+  --radius-pill: 9999px;
+  --page-max: 1440px;
+  --container: 1360px;
+  --grid-columns: 12;
+  --grid-gap: 24px;
+  --gutter-desktop: 80px;
+  --gutter-tablet: 40px;
+  --gutter-mobile: 20px;
+  --header-height: 80px;
+  --nav-blur: blur(16px) saturate(140%);
+  --font-display: var(--ff-display, "Space Grotesk"), "Inter", system-ui, sans-serif;
+  --font-sans: var(--ff-sans, "Inter"), system-ui, -apple-system, "Segoe UI", sans-serif;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+:root,
+[data-theme="dark"] {
+  --surface: var(--midnight-black);
+  --surface-raised: var(--graphite);
+  --surface-glass: rgba(11, 11, 16, 0.72);
+  --ink: var(--soft-white);
+  --ink-muted: var(--cool-gray);
+  --line: var(--dark-slate);
+  --line-strong: var(--steel-dark);
+  --accent: var(--electric-lime);
+  --on-accent: var(--midnight-black);
+  --accent-ink: var(--electric-lime);
+  --violet: var(--digital-violet);
+  --mark-depth: var(--electric-lime);
+  --focus: var(--electric-lime);
+  --danger: var(--signal-coral);
+  --focus-ring: 0 0 0 2px #0B0B10, 0 0 0 4px #C8FF5F;
+  color-scheme: dark;
+}
+
+[data-theme="light"] {
+  --surface: var(--warm-ivory);
+  --surface-raised: var(--ivory-raised);
+  --surface-glass: rgba(246, 245, 240, 0.8);
+  --ink: var(--midnight-black);
+  --ink-muted: var(--slate-ink);
+  --line: var(--ivory-line);
+  --line-strong: var(--steel-light);
+  --accent: var(--electric-lime);
+  --on-accent: var(--midnight-black);
+  --accent-ink: var(--midnight-black);
+  --violet: var(--digital-violet);
+  --mark-depth: var(--digital-violet);
+  --focus: var(--midnight-black);
+  --danger: var(--signal-red);
+  --focus-ring: 0 0 0 2px #F6F5F0, 0 0 0 4px #0B0B10;
+  color-scheme: light;
+}
